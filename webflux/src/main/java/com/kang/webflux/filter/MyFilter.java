@@ -35,6 +35,14 @@ public class MyFilter implements Filter {
             }
         }
 
+        while (true) {
+            try {
+                Thread.sleep(1);
+            } catch (Exception e) {
+                // TODO: handle exception
+            }
+        }
+
         chain.doFilter(request, servletResponse);
     }
 
