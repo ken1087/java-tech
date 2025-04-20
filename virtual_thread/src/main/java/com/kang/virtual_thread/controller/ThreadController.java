@@ -4,13 +4,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
+/**
+ * Virtual Thread 공부
+ * 출처 : https://www.youtube.com/watch?v=pt7cNy7KlpE
+ */
 @RestController
 @RequestMapping("/threads")
 public class ThreadController {
 
     // 스레드 수 : 요청 수
     private static final int THREAD_COUNT = 2000;
-    
+
     // 요청 하나당 걸리는 시간
     private static final int ITERATIONS = 1000;
 
