@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  * Virtual Thread 공부
- * 출처 : https://www.youtube.com/watch?v=pt7cNy7KlpE
+ * 참고영상 : https://www.youtube.com/watch?v=pt7cNy7KlpE
  */
 @RestController
 @RequestMapping("/threads")
